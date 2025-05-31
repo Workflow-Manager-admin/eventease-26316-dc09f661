@@ -519,7 +519,7 @@ function App() {
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
               <div className="logo">
                 <img
-                  src={require('./assets/logo.svg')}
+                  src={Logo}
                   alt="EventEase Logo"
                   className="logo-img"
                   style={{
@@ -576,7 +576,7 @@ function App() {
           }}>
             <div className="logo" tabIndex={0} role="button" aria-label="Go Home" style={{ fontSize: 20 }}>
               <img
-                src={require('./assets/logo.svg')}
+                src={Logo}
                 alt="EventEase Logo"
                 className="logo-img"
                 style={{
