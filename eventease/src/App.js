@@ -517,7 +517,17 @@ function App() {
           <div className="container">
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
               <div className="logo">
-                <span style={{ color: "#FF6600", marginRight: 6, fontWeight: 800, fontSize: 20 }}>*</span>
+                <img
+                  src={require('./assets/logo.svg')}
+                  alt="EventEase Logo"
+                  className="logo-img"
+                  style={{
+                    width: 28,
+                    height: 28,
+                    marginRight: 8,
+                    verticalAlign: "middle"
+                  }}
+                />
                 EventEase
               </div>
               <div>
@@ -564,7 +574,17 @@ function App() {
             display: "flex", alignItems: "center", justifyContent: "space-between"
           }}>
             <div className="logo" tabIndex={0} role="button" aria-label="Go Home" style={{ fontSize: 20 }}>
-              <span style={{ color: "#FF6600", marginRight: 6, fontWeight: 800 }}>*</span>
+              <img
+                src={require('./assets/logo.svg')}
+                alt="EventEase Logo"
+                className="logo-img"
+                style={{
+                  width: 28,
+                  height: 28,
+                  marginRight: 8,
+                  verticalAlign: "middle"
+                }}
+              />
               EventEase
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
