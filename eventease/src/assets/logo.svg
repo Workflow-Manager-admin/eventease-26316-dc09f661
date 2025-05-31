@@ -1,0 +1,38 @@
+<svg
+  width="42"
+  height="42"
+  viewBox="0 0 42 42"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Black ticket base -->
+  <rect
+    x="6"
+    y="11"
+    width="30"
+    height="20"
+    rx="6"
+    stroke="#000000"
+    stroke-width="3"
+    fill="#000000"
+    />
+  <!-- Orange EventEase "cut corner" ('event' emphasis) -->
+  <path
+    d="M6 21a5 5 0 0 0 0-10"
+    fill="#FFA500"
+    opacity="0.8"
+  />
+  <!-- Ticket perforation (orange dots) -->
+  <circle cx="12" cy="21" r="1.3" fill="#FF6600"/>
+  <circle cx="17" cy="21" r="1.3" fill="#FF6600"/>
+  <circle cx="22" cy="21" r="1.3" fill="#FF6600"/>
+  <circle cx="27" cy="21" r="1.3" fill="#FF6600"/>
+  <circle cx="32" cy="21" r="1.3" fill="#FF6600"/>
+  <!-- Event "star" accent -->
+  <polygon
+    points="21,16 22,19 25,19 22.6,20.7 23.4,23.5 21,22 18.6,23.5 19.4,20.7 17,19 20,19"
+    fill="#FFA500"
+    stroke="#FFA500"
+    stroke-width="0.4"
+  />
+</svg>
