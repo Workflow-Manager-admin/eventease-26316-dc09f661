@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Logo from "./assets/logo.svg";
 
 /**
  * Main Container for EventEase
