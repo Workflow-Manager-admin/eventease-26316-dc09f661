@@ -43,6 +43,16 @@ body {
   gap: 8px;
 }
 
+.logo-img {
+  height: 28px;
+  width: 28px;
+  max-width: 32px;
+  max-height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
 .logo-symbol {
   color: var(--kavia-orange);
 }
